@@ -1,0 +1,10 @@
+.gallery {
+  font-family: Century Gothic, sans-serif;
+}
+.gallery .container {
+  padding: 10px;
+}
+.gallery .container .list-group .list-group-item img {
+  display: block;
+  margin: 0 auto;
+}
