@@ -4,6 +4,17 @@
 .gallery .container {
   padding: 10px;
 }
+.gallery .container .list-group {
+  margin-top: 20px;
+  min-height: 75vh;
+  height: 75vh;
+  max-height: 100%;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+.gallery .container .list-group .list-group-item {
+  display: inline-block;
+}
 .gallery .container .list-group .list-group-item img {
   display: block;
   margin: 0 auto;

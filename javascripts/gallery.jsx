@@ -20,7 +20,11 @@ var Scrollbox = React.createClass({
             if (file) {
                 reader.readAsDataURL(file);
             }
-            return <li className="list-group-item" key={index + file.name}><img id={"outImage"+index} width={300} src="#"/></li>;
+            return (
+                <li className="list-group-item" key={index + file.name}>
+                    <img id={"outImage"+index} width={330} draggable="false" src="#"/>
+                </li>
+            );
         };
         return <ul className="list-group">{this.props.fileList.map(listItems)}</ul>
     }
